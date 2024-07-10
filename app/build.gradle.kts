@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.purvak.videoplayer"
+    namespace = "com.purvak.metaandroiddeveloper"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.purvak.videoplayer"
+        applicationId = "com.purvak.metaandroiddeveloper"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

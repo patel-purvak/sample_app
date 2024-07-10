@@ -13,11 +13,16 @@
         android:theme="@style/Theme.Sample_app"
         tools:targetApi="31">
         <activity
-            android:name=".VideoViewActivity"
-            android:exported="false"
-            android:theme="@style/Theme.Sample_app"/>
+            android:name=".PracticeHandlingNullabilityActivity"
+            android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SampleKotlinProgrammingTryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PracticeHandlingCollectionsActivity"
             android:exported="true"
             android:theme="@style/Theme.Sample_app">
             <intent-filter>
@@ -26,6 +31,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".VideoViewActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Sample_app" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Sample_app" />
     </application>
 
 </manifest>

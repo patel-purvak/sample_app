@@ -1,4 +1,4 @@
-package com.purvak.videoplayer
+package com.purvak.metaandroiddeveloper
 
 import android.net.Uri
 import android.net.Uri.*
